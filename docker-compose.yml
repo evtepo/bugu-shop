@@ -15,7 +15,7 @@ services:
   db:
     image: postgres:13
     volumes:
-      - /postgresql/bugu_data:/var/lib/postgresql/data
+      - /postgresql/bugu_shop_data:/var/lib/postgresql/data
     env_file:
       - ./.env
 
